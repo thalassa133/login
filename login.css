@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Dancing+Script:wght@500&family=Manrope:wght@200&family=Poppins:ital,wght@0,100;0,200;0,400;0,500;1,100;1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-image: url(https://venngage-wordpress.s3.amazonaws.com/uploads/2018/11/15-Presentation-Background-Examples7.jpeg);
+}
+
+/*navigation bar */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.contact {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0px 10px;
+    font-weight: 500;
+}
+
+.nav li a {
+    transition: all 0.3s ease;
+}
+
+.nav li a:hover {
+    color: rgb(129, 108, 137);
+}
+
+.contact {
+    transition: all 0.3s ease;
+    background-color: gray;
+}
+
+.contact:hover {
+    color: rgb(129, 108, 137);
+}
+
+.nav a:hover,
+.nav a.active {
+    color: rgb(129, 108, 137);
+}
+
+/* body */
+
+.container {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    width: 20%;
+}
+
+.info input {
+    width: 500%;
+    border-radius: 2rem;
+    height: 2vw;
+    text-indent: 5px;
+    font-size: 15px;
+    color: black;
+}
+
+.login-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+button {
+    border-radius: 1.5rem;
+    height: 2vw;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-size: 16px;
+    cursor: pointer;
+    color: black;
+    background-color: gray;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    padding-bottom: 15%;
+}
+
+i {
+    font-size: 20px;
+}
